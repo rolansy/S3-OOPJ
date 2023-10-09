@@ -21,19 +21,23 @@ public class Matrix{
             return;
         }
 
-        int[][] matrixA = new int[arow][acol]
+        int[][] matrixA = new int[arow][acol];
         System.out.println("Enter Elements for Matrix A : ");
         Inputm(sc, matrixA);
 
+        int[][] matrixB=new int[brow][bcol];
+        System.out.println("Enter Elements for Matrix B : ");
+        Inputm(sc, matrixB);
         
 
     }
     
     private static void Inputm(Scanner sc, int[][] matrix){
-        for (i=0;i<matrix.length;i++){
-            for(j=0;j<matrix.length;j++){
+        for (int i=0;i<matrix.length;i++){
+            for(int j=0;j<matrix.length;j++){
                 System.out.print("Enter Element at position ("+i+","+j+")");
-                matrix[i][j]=sc.nextInt()
+                matrix[i][j]=sc.nextInt();
+
             }
         }
     }
