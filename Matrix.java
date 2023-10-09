@@ -54,4 +54,13 @@ public class Matrix{
         }
         return resultm;
     }
+
+    public static void displaym(int[][] A){
+        for(int i=0;i<A.length;i++){
+            for(int j=0;j<A[0].length;j++){
+                System.out.print(A[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
 }
