@@ -26,6 +26,15 @@ public class Matrix{
         int[][] matrixB=new int[brow][bcol];
         System.out.println("Enter Elements for Matrix B : ");
         inputm(sc, matrixB);
+
+        int[][] resultm=multiplym(matrixA, matrixB);
+
+        System.out.println("Product Matrix of Matrix A : ");
+        displaym(matrixA);
+        System.out.println("And Matrix B : ");
+        displaym(matrixB);
+        System.out.println("Is : ");
+        displaym(resultm);
         
 
     }
@@ -48,7 +57,7 @@ public class Matrix{
         for (int i=0;i<arow;i++){
             for (int j=0;j<bcol;j++){
                 for(int k=0;k<acol;k++){
-                    resultm[i][j]=A[i][k]+B[k][j];
+                    resultm[i][j]+=A[i][k]*B[k][j];
                 }
             }
         }
