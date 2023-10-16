@@ -1,4 +1,3 @@
-import java.util.*;
 
 class Vehicle{
     String brand;
@@ -8,6 +7,15 @@ class Vehicle{
     }
 
 }
+
+class Car extends Vehicle{
+    int wheel;
+    public void honk(){
+        System.out.println("Car is Honking");
+    }
+}
+
+
 
 public class Inheritence {
     public static void main(String[] args){
