@@ -25,7 +25,17 @@ class Bicycle extends Vehicle{
 
 public class Inheritence {
     public static void main(String[] args){
+        Car bmw=new Car();
+        bmw.brand="B M W";
+        bmw.wheel=4;
 
+        bmw.drive();
+
+        bmw.honk();
+
+        System.out.println("Car Brand : "+bmw.brand);
+        System.out.println("Wheels of Car : "+bmw.wheel);
+        
 
     }
 }
