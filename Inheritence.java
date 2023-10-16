@@ -15,6 +15,12 @@ class Car extends Vehicle{
     }
 }
 
+class Bicycle extends Vehicle{
+    int pedal;
+    public void ring(){
+        System.out.println("Bicycle is ringin bell");
+    }
+}
 
 
 public class Inheritence {
