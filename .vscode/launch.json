@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ShapeAbstractionTrial",
+      "request": "launch",
+      "mainClass": "ShapeAbstractionTrial",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
+      "name": "TestSuper2",
+      "request": "launch",
+      "mainClass": "TestSuper2",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
+      "name": "TestSuper1",
+      "request": "launch",
+      "mainClass": "TestSuper1",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
+      "name": "Car",
+      "request": "launch",
+      "mainClass": "Car",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
+      "name": "Inheritence",
+      "request": "launch",
+      "mainClass": "Inheritence",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/java/S3 OOPJ",
+      "program": "d:/java/S3 OOPJ/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
