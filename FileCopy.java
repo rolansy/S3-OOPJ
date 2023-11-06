@@ -14,5 +14,8 @@ public class FileCopy {
                 }while (c!=-1);
             }
         }
+        catch(FileNotFoundException e){
+            System.out.println("File not found");
+        }
     }
 }
