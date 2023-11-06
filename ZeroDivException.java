@@ -15,3 +15,6 @@ public class ZeroDivException {
         catch(AirthmeticException e){
             System.out.println("Cannot divide by zero");
         }
+        finally{
+            System.out.println("Program ends");
+        }
