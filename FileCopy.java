@@ -16,6 +16,12 @@ public class FileCopy {
         }
         catch(FileNotFoundException e){
             System.out.println("File not found");
+            return;
         }
+        finally{
+            f1.close();
+            f2.close();
+        }
+        
     }
 }
