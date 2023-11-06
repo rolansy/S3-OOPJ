@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class ZeroDivException {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ArithmeticException{
         Scanner sc = new Scanner(System.in);  
         try{
             System.out.println("Enter the first number: ");
@@ -18,3 +18,5 @@ public class ZeroDivException {
         finally{
             System.out.println("Program ends");
         }
+    }
+}

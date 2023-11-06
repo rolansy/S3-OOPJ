@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ZeroDivException",
+      "request": "launch",
+      "mainClass": "ZeroDivException",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
       "name": "ShapeAbstractionTrial",
       "request": "launch",
       "mainClass": "ShapeAbstractionTrial",
