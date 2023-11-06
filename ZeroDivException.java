@@ -12,5 +12,6 @@ public class ZeroDivException {
             int c=a/b;
             System.out.println("The result is: "+c);
         }
-        
-}
+        catch(AirthmeticException e){
+            System.out.println("Cannot divide by zero");
+        }
