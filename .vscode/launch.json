@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FileCopy",
+      "request": "launch",
+      "mainClass": "FileCopy",
+      "projectName": "S3 OOPJ_c88027c6"
+    },
+    {
+      "type": "java",
       "name": "ZeroDivException",
       "request": "launch",
       "mainClass": "ZeroDivException",

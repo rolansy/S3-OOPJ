@@ -11,8 +11,8 @@ public class FileCopy {
                 c=f1.read();
                 if(c!=-1){
                     f2.write((char)c);
-                }while (c!=-1);
-            }
+                }
+            }while (c!=-1);
         }
         catch(FileNotFoundException e){
             System.out.println("File not found");
